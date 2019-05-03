@@ -1,0 +1,13 @@
+package com.APIGetCSV;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApiGetCsvApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiGetCsvApplication.class, args);
+	}
+
+}

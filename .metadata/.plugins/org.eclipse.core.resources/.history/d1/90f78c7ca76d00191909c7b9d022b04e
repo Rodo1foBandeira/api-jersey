@@ -1,0 +1,18 @@
+package com.repo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.Irepo.IUsuarioRepo;
+import com.model.Usuario;
+
+public class UsuarioRepo{
+	@Autowired
+	IUsuarioRepo usuarioRepo;
+	
+	public List<Usuario> listarTodos()
+	{
+		return (List<Usuario>)usuarioRepo.findAll();
+	}
+}

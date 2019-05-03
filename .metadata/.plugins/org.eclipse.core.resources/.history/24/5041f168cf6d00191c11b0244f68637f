@@ -1,0 +1,5 @@
+package com.APIGetCSV;
+
+public class JerseyConfig {
+
+}
